@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/emergencyContactEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:hint="输入紧急联系人电话号码"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/saveEmergencyContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存紧急联系人"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/backToMainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回主页"
+        android:layout_margin="8dp"/>
+</LinearLayout>

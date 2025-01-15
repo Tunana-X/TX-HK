@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <AnalogClock
+        android:id="@+id/analogClock"
+        android:layout_width="131dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="219dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:text="选择时间" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="日期" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="时间" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="219dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="选择日期" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/sw_set"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp" />
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="时间" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

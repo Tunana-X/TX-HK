@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+
+        android:gravity="center">
+
+        <Button
+        android:id="@+id/chataiButton"
+        android:layout_width="0dp"
+        android:layout_height="108dp"
+        android:layout_columnWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/main_button"
+        android:text="聊天机器人" />
+        <Button
+            android:id="@+id/bookButton"
+            android:layout_width="0dp"
+            android:layout_height="108dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/main_button"
+            android:text="书签" />
+        <Button
+            android:id="@+id/magnifierButton"
+            android:layout_width="0dp"
+            android:layout_height="108dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/main_button"
+            android:text="放大镜" />
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_width="0dp"
+            android:layout_height="108dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/main_button"
+            android:text="图像识别" />
+
+        <Button
+            android:id="@+id/emergencyButton"
+            android:layout_width="0dp"
+            android:layout_height="108dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/main_button"
+            android:text="紧急呼叫" />
+
+        <Button
+            android:id="@+id/setting_emergencyButton"
+            android:layout_width="0dp"
+            android:layout_height="108dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/main_button"
+            android:text="设置紧急联系人" />
+
+        <Button
+            android:id="@+id/Assistancebutton"
+            android:layout_width="0dp"
+            android:layout_height="108dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/main_button"
+            android:text="小秘书" />
+
+
+    </GridLayout>
+</ScrollView>
